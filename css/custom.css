@@ -273,7 +273,7 @@
 @media (min-width: 320px) and (max-width: 480px) {
   .connect-item {
     width: 200px;
-    height: 150px;
+    height: auto;
   }
 }
 
