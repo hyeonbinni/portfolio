@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>HYEONBIN &mdash; Sketchware for Arduino</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" type="text/css" href="device_mockups/dist/device-mockups.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="css/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="backbutton-icons">
+          <a href="javascript:history.back()">
+            <i class="fas fa-chevron-left"></i>
+          </a>
+        </div>
+        <div class="project-detail-title">
+          <h3>Project <strong>Details</strong></h3>
+        </div>
+      </div>
+    </nav>
+
+    <section class="site-section" id="section-project-info">
+      <div class="container">
+        <div class="row mb-5 align-items-center">
+          <div class="col-md-6 pr-lg-5 mb-5 mb-lg-0">
+            <!-- <img src="images/sketch_ino_main.gif" class="sketch-main-img"> -->
+            <div class="device-wrapper">
+              <div class="device" data-device="Pixel" data-orientation="portrait" data-color="black">
+                <div class="screen">
+                  <img src="images/sketch_ino_main.gif" class="sketch-main-img">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="section-heading">
+              <h2>Sketchware for <strong>Arduino</strong></h2>
+            </div>
+            <p><span class="date"><span class="icon-calendar"></span> May 2019 - September 2019 </span></p>
+            <p class="lead">블록형 프로그래밍 언어를 기반으로 아두이노를 제어하는 앱</p>
+            <p class="mb-5">앱 초기 UI 구현, 기능 설계 및 개발을 담당하여 2019.06 Google Play Store 출시<br>출시 후 Google Play Store 아두이노 프로그래밍 관련 앱 상위권 달성<br>Java, Spring Framework, MyBatis, MySQL, AWS를 활용한 풀스택 개발</p>
+              <!-- <a href="#section-contact" class="btn btn-primary px-4 py-2 btn-sm smoothscroll">Go To Market</a> -->
+            <a href="https://play.google.com/store/apps/details?id=com.sketchware.arduino">
+              <img src="images/icons/google_play_badge.png" class="img-fluid google-play-badge">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="site-section bg-light " id="section-works">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 mb-5">
+            <div class="section-heading text-center">
+              <h2>My <strong>Works</strong></h2>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="resume-item mb-4" data-toggle="modal" href="#portfolioModal1">
+              <h3>아두이노 라이브러리 헤더파일 파싱</h3>
+              <span class="school">#eclipse #eclipse_cdt #ast</span>
+            </div>
+            <div class="resume-item mb-4" data-toggle="modal" href="#portfolioModal2">
+              <h3>아두이노와의 통신 기능</h3>
+              <span class="school">#physicaloid #broadcast_receiver #usb_manager</span>
+            </div>
+            <div class="resume-item mb-4" data-toggle="modal" href="#portfolioModal3">
+              <h3>시리얼 모니터 기능</h3>
+              <span class="school">#physicaloid</span>
+            </div>
+            <div class="resume-item mb-4" data-toggle="modal" href="#portfolioModal4">
+              <h3>프로젝트 공유 관련 기능 및 프로젝트 공유 플랫폼</h3>
+              <span class="school">#java #spring_framework #my_sql #my_batis</span>
+            </div>
+            <div class="resume-item mb-4" data-toggle="modal" href="#portfolioModal5">
+              <h3>예제 비디오 및 프로젝트</h3>
+              <span class="school">#youtube_android_player #webview</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container">
+
+        <div class="row">
+            <p class="col-12 text-center">
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" class="text-primary">Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h3>아두이노 라이브러리 헤더파일 파싱</h3><br>
+                  <div id="carouselForModal1" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="parse-item" src="images/screenshots/ino/parse/1.png">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="parse-item" src="images/screenshots/ino/parse/2.png">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="parse-item" src="images/screenshots/ino/parse/3.png">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselForModal1" role="button" data-slide="prev">
+                      <div class="carousel-buttons">
+                        <i class="fas fa-chevron-left"></i>
+                      </div>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselForModal1" role="button" data-slide="next">
+                      <div class="carousel-buttons">
+                        <i class="fas fa-chevron-right"></i>
+                      </div>
+                    </a>
+                  </div><br>
+                  <div class="section-heading text-center">
+                    <h3>주요 기능</h3>
+                  </div>
+                  <div class="detail-desc">
+                    <div class="detail-desc-items">
+                      <h4>✓&nbsp멤버 변수 파싱</h4>
+                      <h5>: 타입, 이름, 초기화 값</h5>
+                    </div>
+                    <div class="detail-desc-items">
+                      <h4>✓&nbsp멤버 함수 파싱</h4>
+                      <h5>: 타입, 이름, 파라미터</h5>
+                    </div>
+                    <div class="detail-desc-items">
+                      <h4>✓&nbsp파싱 내용은 접근지정자를 기준으로 정리</h4>
+                      <h5>: public, protected, private</h5>
+                    </div>
+                  </div>
+                  <div class="section-heading text-center">
+                    <h3>구현 특징</h3>
+                  </div>
+                  <div class="detail-desc">
+                    <div class="detail-desc-items">
+                      <h4>✓&nbspEclipse의 CDT(C/C++ Development Toolkit) 라이브러리 중 cdt.core를 연구</h4>
+                      <h5>: C/C++ 코드를 스캔 및 파싱하여 정리하는 라이브러리</h5>
+                      <h5>: 파싱 결과는 컴파일러에 사용되는 자료 구조인 AST(Abstract Syntax Tree)로 저장</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h3>아두이노와의 통신 기능</h3><br>
+                  <div id="carouselForModal2" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="connect-item" src="images/screenshots/ino/connect/1.png">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="sketch-main-img" src="images/screenshots/ino/connect/2.png">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="sketch-main-img" src="images/screenshots/ino/connect/3.png">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselForModal2" role="button" data-slide="prev">
+                      <div class="carousel-buttons">
+                        <i class="fas fa-chevron-left"></i>
+                      </div>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselForModal2" role="button" data-slide="next">
+                      <div class="carousel-buttons">
+                        <i class="fas fa-chevron-right"></i>
+                      </div>
+                    </a>
+                  </div><br>
+                  <div class="section-heading text-center">
+                    <h3>주요 기능</h3>
+                  </div>
+                  <div class="detail-desc">
+                    <div class="detail-desc-items">
+                      <h4>✓&nbspUSB 연결 상태에 따라 통신 상태 변환</h4>
+                    </div>
+                    <div class="detail-desc-items">
+                      <h4>✓&nbsp라이프 사이클에 따라 통신 상태 변환</h4>
+                    </div>
+                    <div class="detail-desc-items">
+                      <h4>✓&nbsp업로드, 시리얼 통신 등의 동작에 따라 통신 상태 변환</h4>
+                    </div>
+                  </div>
+                  <div class="section-heading text-center">
+                    <h3>구현 특징</h3>
+                  </div>
+                  <div class="detail-desc">
+                    <div class="detail-desc-items">
+                      <h4>✓&nbspPhysicaloid API로 아두이노와의 통신 동작 구현</h4>
+                    </div>
+                    <div class="detail-desc-items">
+                      <h4>✓&nbspBroadcastReceiver로 USB 연결 상태 수신</h4>
+                    </div>
+                    <div class="detail-desc-items">
+                      <h4>✓&nbspUsbManager로 연결된 디바이스 정보, 연결 상태, 연결 권한 등 확인</h4>
+                    </div>
+                    <div class="detail-desc-items">
+                      <h4>✓&nbsp통신 상태를 유지해야 할 경우에만 통신 상태를 유지</h4>
+                      <h5>: 통신 상태를 유지해야할 필요가 없는 상황에서의 리소스 낭비 방지</h5>
+                      <h5>: 통신 상태가 이루어짐과 동시에 시리얼 통신이 시작되는 경우 다른 동작을 방해</h5>
+                    </div>
+                    <!-- <div class="detail-desc-items">
+                      <h4>✓&nbsp기능 개선 후 USB 연결 및 동작간 발생하던 비정상 종료율 0% 유지</h4>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h3>시리얼 모니터 기능</h3><br>
+                  <div id="carouselForModal3" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="sketch-main-img" src="images/screenshots/ino/serial/1.png">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="sketch-main-img" src="images/screenshots/ino/serial/2.png">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="sketch-main-img" src="images/screenshots/ino/serial/3.png">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="sketch-main-img" src="images/screenshots/ino/serial/4.png">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselForModal3" role="button" data-slide="prev">
+                      <div class="carousel-buttons">
+                        <i class="fas fa-chevron-left"></i>
+                      </div>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselForModal3" role="button" data-slide="next">
+                      <div class="carousel-buttons">
+                        <i class="fas fa-chevron-right"></i>
+                      </div>
+                    </a>
+                  </div><br>
+                  <div class="section-heading text-center">
+                    <h3>주요 기능</h3>
+                  </div>
+                  <div class="detail-desc">
+                    <div class="detail-desc-items">
+                      <h4>✓&nbsp아두이노와의 시리얼 통신을 통한 데이터 송수신</h4>
+                    </div>
+                    <div class="detail-desc-items">
+                      <h4>✓&nbsp시리얼 통신 속도(Baud Rate) 설정</h4>
+                    </div>
+                    <div class="detail-desc-items">
+                      <h4>✓&nbsp시리얼 모니터 출력 줄 수 제한 설정</h4>
+                    </div>
+                    <div class="detail-desc-items">
+                      <h4>✓&nbsp시리얼 모니터 출력 내용을 텍스트 파일로 생성 후 메일로 전송</h4>
+                    </div>
+                  </div>
+                  <div class="section-heading text-center">
+                    <h3>구현 특징</h3>
+                  </div>
+                  <div class="detail-desc">
+                    <div class="detail-desc-items">
+                      <h4>✓&nbspPhysicaloid API로 아두이노와의 시리얼 통신 동작 구현</h4>
+                    </div>
+                    <div class="detail-desc-items">
+                      <h4>✓&nbsp시리얼 통신의 종류에 따른 통신 속도 변화</h4>
+                      <h5>: Baud Rate 설정 제공</h5>
+                    </div>
+                    <div class="detail-desc-items">
+                      <h4>✓&nbsp시리얼 모니터의 내용이 갑자기 많아질 경우 Stack Overflow 현상 발생</h4>
+                      <h5>: 시리얼 모니터 출력 줄 수 제한 설정 제공</h5>
+                      <h5>: 모니터 내용 지우개 버튼 제공</h5>
+                    </div>
+                    <!-- <div class="detail-desc-items">
+                      <h4>✓&nbspSerial 함수들을 사용하여 아두이노와의 시리얼 통신이 가능해짐</h4>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h3>프로젝트 공유 관련 기능과 프로젝트 공유 플랫폼</h3><br>
+                  <div id="carouselForModal4" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="sketch-main-img" src="images/screenshots/ino/shared/1.png">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="sketch-main-img" src="images/screenshots/ino/shared/2.png">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="sketch-main-img" src="images/screenshots/ino/shared/3.png">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="sketch-main-img" src="images/screenshots/ino/shared/4.png">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="sketch-main-img" src="images/screenshots/ino/shared/5.png">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="sketch-main-img" src="images/screenshots/ino/shared/6.png">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="sketch-main-img" src="images/screenshots/ino/shared/7.png">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselForModal4" role="button" data-slide="prev">
+                      <div class="carousel-buttons">
+                        <i class="fas fa-chevron-left"></i>
+                      </div>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselForModal4" role="button" data-slide="next">
+                      <div class="carousel-buttons">
+                        <i class="fas fa-chevron-right"></i>
+                      </div>
+                    </a>
+                  </div><br>
+                  <div class="section-heading text-center">
+                    <h3>주요 기능</h3>
+                  </div>
+                  <div class="detail-desc">
+                    <div class="detail-desc-items">
+                      <h4>✓&nbsp프로젝트 공유 플랫폼 제공</h4>
+                    </div>
+                    <div class="detail-desc-items">
+                      <h4>✓&nbsp프로젝트 공유 및 공유 관리</h4>
+                    </div>
+                    <div class="detail-desc-items">
+                      <h4>✓&nbsp공유된 프로젝트의 정보 제공 및 다운로드</h4>
+                    </div>
+                    <div class="detail-desc-items">
+                      <h4>✓&nbsp좋아요, 댓글 기능</h4>
+                    </div>
+                  </div>
+                  <div class="section-heading text-center">
+                    <h3>구현 특징</h3>
+                  </div>
+                  <div class="detail-desc">
+                    <div class="detail-desc-items">
+                      <h4>✓&nbsp풀스택 개발</h4>
+                      <h5>: Java, Spring Framework, MySQL, MyBatis</h5>
+                    </div>
+                    <div class="detail-desc-items">
+                      <h4>✓&nbspOkHttp3 API로 http 통신 구현</h4>
+                    </div>
+                    <div class="detail-desc-items">
+                      <h4>✓&nbspGlide API로 스크린샷 출력</h4>
+                    </div>
+                    <div class="detail-desc-items">
+                      <h4>✓&nbsp공유 시 단계별로 업로드에 필요한 정보를 입력하는 인터페이스로 구성</h4>
+                    </div>
+                    <!-- <div class="detail-desc-items">
+                      <h4>✓&nbsp기능 릴리즈 후 앱 설치 수 200% 증가</h4>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h3>예제 비디오 및 프로젝트</h3><br>
+                  <div id="carouselForModal5" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="sketch-main-img" src="images/screenshots/ino/example/1.png">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="sketch-main-img" src="images/screenshots/ino/example/2.png">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="sketch-main-img" src="images/screenshots/ino/example/3.png">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselForModal5" role="button" data-slide="prev">
+                      <div class="carousel-buttons">
+                        <i class="fas fa-chevron-left"></i>
+                      </div>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselForModal5" role="button" data-slide="next">
+                      <div class="carousel-buttons">
+                        <i class="fas fa-chevron-right"></i>
+                      </div>
+                    </a>
+                  </div><br>
+                  <div class="section-heading text-center">
+                    <h3>주요 기능</h3>
+                  </div>
+                  <div class="detail-desc">
+                    <div class="detail-desc-items">
+                      <h4>✓&nbsp직접 제작한 유튜브 예제 비디오 제공</h4>
+                    </div>
+                    <div class="detail-desc-items">
+                      <h4>✓&nbsp아두이노 공식 기본 예제 제공</h4>
+                    </div>
+                    <div class="detail-desc-items">
+                      <h4>✓&nbsp아두이노 공식 기본 예제 프로젝트 저장</h4>
+                    </div>
+                  </div>
+                  <div class="section-heading text-center">
+                    <h3>구현 특징</h3>
+                  </div>
+                  <div class="detail-desc">
+                    <div class="detail-desc-items">
+                      <h4>✓&nbspYoutubeAndroidPlayer API로 유튜브 예제 비디오 제공</h4>
+                    </div>
+                    <div class="detail-desc-items">
+                      <h4>✓&nbspWebview로 아두이노 공식 기본 예제 가이드 페이지 제공</h4>
+                    </div>
+                    <div class="detail-desc-items">
+                      <h4>✓&nbsp아두이노 공식 기본 예제 프로젝트의 소스 코드를 블럭 프로그래밍에 맞게 변환하여 저장</h4>
+                      <h5>: 저장 후 바로 컴파일 및 아두이노로 업로드 가능</h5>
+                      <h5>: 예제 프로젝트의 소스 코드를 열어 로직 학습 가능</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h3>광고 로직 구현 및 관리</h3><br>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img class="img-fluid" src="images/p1.jpg" alt="">
+                    </div>
+                    <div class="col-md-6">
+                      <img class="img-fluid" src="images/p1.jpg" alt="">
+                    </div>
+                  </div><br>
+                  <div class="section-heading text-center">
+                    <h3>주요 기능</h3>
+                  </div>
+                  <div class="detail-desc">
+                    <div class="detail-desc-items">
+                      <h4>✓&nbsp동작에 따라 전면 광고 노출</h4>
+                    </div>
+                  </div>
+                  <div class="section-heading text-center">
+                    <h3>구현 특징</h3>
+                  </div>
+                  <div class="detail-desc">
+                    <div class="detail-desc-items">
+                      <h4>✓&nbspFacebook Audience Network API로 전면 광고 불러오기 및 노출</h4>
+                    </div>
+                    <div class="detail-desc-items">
+                      <h4>✓&nbsp최상의 광고 수익을 위한 전면 광고 로직 구현 및 개선</h4>
+                      <h5>: 로직과 방식에 따라 광고 수익이 달라짐을 확인</h5>
+                    </div>
+                    <!-- <div class="detail-desc-items">
+                      <h4>✓&nbsp- Facebook의 광고 약관을 준수하여 개발</h4>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/popper.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+
+    <script src="js/vendor/jquery.easing.1.3.js"></script>
+    <script src="js/vendor/jquery.stellar.min.js"></script>
+    <script src="js/vendor/jquery.waypoints.min.js"></script>
+
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="js/custom.js"></script>
+
+  </body>
+</html>
