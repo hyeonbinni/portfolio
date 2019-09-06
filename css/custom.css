@@ -257,3 +257,9 @@
 .smooth-scroll {
   scroll-behavior: smooth;
 }
+
+
+.carousel-inner {
+  margin-left: auto;
+  margin-right: auto;
+}
