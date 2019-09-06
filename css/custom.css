@@ -142,8 +142,6 @@
 	max-width: 100%;
 	height: auto;
   padding: 40px 40px 40px 40px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -154,8 +152,6 @@
   	max-width: 100%;
   	height: auto;
     padding: 20px 20px 20px 20px;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 
@@ -265,8 +261,8 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
   .parse-item {
-    width: 180px;
-    height: auto;
+    width: 200px;
+    height: 80px;
   }
 }
 
@@ -291,4 +287,8 @@
     width: 180px;
     height: auto;
   }
+}
+
+.list-inline {
+  text-align: center;
 }
