@@ -259,7 +259,7 @@
 
 @@media screen and (max-width : 320px) {
   .modal-img {
-    width: 220px;
+    width: 180px;
     height: auto;
   }
 }
