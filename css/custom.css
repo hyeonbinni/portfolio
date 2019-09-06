@@ -144,6 +144,17 @@
   padding: 40px 40px 40px 40px;
 }
 
+@@media screen and (max-width : 320px) {
+  .hvrbox {
+  	position: relative;
+  	display: inline-block;
+  	overflow: hidden;
+  	max-width: 100%;
+  	height: auto;
+    /* padding: 40px 40px 40px 40px; */
+  }
+}
+
 .hvrbox .hvrbox-layer_bottom {
 	display: block;
 }
@@ -259,7 +270,7 @@
 
 @@media screen and (max-width : 320px) {
   .modal-img {
-    width: 180px;
+    width: 20%;
     height: auto;
   }
 }
