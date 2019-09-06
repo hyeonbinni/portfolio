@@ -257,7 +257,7 @@
   height: auto;
 }
 
-@@media screen and (min-width : 321px) {
+@@media screen and (max-width : 320px) {
   .modal-img {
     width: 220px;
     height: auto;
