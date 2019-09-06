@@ -253,6 +253,13 @@
 }
 
 .modal-img {
-  width: 240px;
+  width: 270px;
   height: auto;
+}
+
+@@media screen and (min-width : 321px) {
+  .modal-img {
+    width: 220px;
+    height: auto;
+  }
 }
