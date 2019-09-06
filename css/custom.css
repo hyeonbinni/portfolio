@@ -259,8 +259,22 @@
   height: 320px;
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+  .parse-item {
+    width: 180px;
+    height: auto;
+  }
+}
+
 .connect-item {
   width: 356px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .connect-item {
+    width: 180px;
+    height: auto;
+  }
 }
 
 .modal-img {
