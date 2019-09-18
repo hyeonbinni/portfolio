@@ -266,17 +266,6 @@
   }
 }
 
-.connect-item {
-  width: 356px;
-}
-
-@media (min-width: 320px) and (max-width: 480px) {
-  .connect-item {
-    width: 200px;
-    height: auto;
-  }
-}
-
 .modal-img {
   width: 270px;
   height: auto;
