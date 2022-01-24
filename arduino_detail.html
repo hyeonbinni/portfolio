@@ -75,20 +75,20 @@
               <span class="school">#eclipse #eclipse_cdt #ast</span>
             </div>
             <div class="resume-item mb-4" data-toggle="modal" href="#portfolioModal2">
-              <h3>아두이노와의 통신 기능</h3>
+              <h3>아두이노와의 통신</h3>
               <span class="school">#physicaloid #broadcast_receiver #usb_manager</span>
             </div>
             <div class="resume-item mb-4" data-toggle="modal" href="#portfolioModal3">
-              <h3>시리얼 모니터 기능</h3>
-              <span class="school">#physicaloid</span>
+              <h3>시리얼 모니터</h3>
+              <span class="school">#physicaloid #baud_rate</span>
             </div>
             <div class="resume-item mb-4" data-toggle="modal" href="#portfolioModal4">
               <h3>프로젝트 공유 관련 기능 및 프로젝트 공유 플랫폼</h3>
-              <span class="school">#java #spring_framework #my_sql #my_batis</span>
+              <span class="school">#full_stack #java #spring_framework #my_sql #my_batis</span>
             </div>
             <div class="resume-item mb-4" data-toggle="modal" href="#portfolioModal5">
               <h3>예제 비디오 및 프로젝트</h3>
-              <span class="school">#youtube_android_player #webview</span>
+              <span class="school">#youtube_android_player #web_view</span>
             </div>
           </div>
         </div>
@@ -149,26 +149,16 @@
                   </div>
                   <div class="detail-desc">
                     <div class="detail-desc-items">
-                      <h4>✓&nbsp멤버 변수 파싱</h4>
-                      <h5>: 타입, 이름, 초기화 값</h5>
+                      <h4>✓&nbsp타입, 이름, 초기화 값을 포함한 멤버 변수 파싱</h4>
                     </div>
                     <div class="detail-desc-items">
-                      <h4>✓&nbsp멤버 함수 파싱</h4>
-                      <h5>: 타입, 이름, 파라미터</h5>
+                      <h4>✓&nbsp타입, 이름, 파라미터를 포함한 메소드 파싱</h4>
                     </div>
                     <div class="detail-desc-items">
-                      <h4>✓&nbsp파싱 내용은 접근지정자를 기준으로 정리</h4>
-                      <h5>: public, protected, private</h5>
+                      <h4>✓&nbsp졉근 지정자 기준의 파싱 데이터 정리</h4>
                     </div>
-                  </div>
-                  <div class="section-heading text-center">
-                    <h3>구현 특징</h3>
-                  </div>
-                  <div class="detail-desc">
                     <div class="detail-desc-items">
-                      <h4>✓&nbspEclipse의 CDT(C/C++ Development Toolkit) 라이브러리 중 cdt.core를 연구</h4>
-                      <h5>: C/C++ 코드를 스캔 및 파싱하여 정리하는 라이브러리</h5>
-                      <h5>: 파싱 결과는 컴파일러에 사용되는 자료 구조인 AST(Abstract Syntax Tree)로 저장</h5>
+                      <h4>✓&nbspC/C++ 코드를 스캔 및 파싱하여 정리하는 라이브러리인 Eclipse의 CDT(C/C++ Development Toolkit) 연구</h4>
                     </div>
                   </div>
                 </div>
@@ -191,7 +181,7 @@
             <div class="row">
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
-                  <h3>아두이노와의 통신 기능</h3><br>
+                  <h3>아두이노와의 통신</h3><br>
                   <div id="carouselForModal2" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
@@ -220,36 +210,17 @@
                   </div>
                   <div class="detail-desc">
                     <div class="detail-desc-items">
-                      <h4>✓&nbspUSB 연결 상태에 따라 통신 상태 변환</h4>
+                      <h4>✓&nbspPhysicaloid API를 활용한 아두이노와의 통신 동작</h4>
                     </div>
                     <div class="detail-desc-items">
-                      <h4>✓&nbsp라이프 사이클에 따라 통신 상태 변환</h4>
+                      <h4>✓&nbspUSB 연결 상태 및 라이프 사이클에 따른 통신 상태 변환</h4>
                     </div>
                     <div class="detail-desc-items">
-                      <h4>✓&nbsp업로드, 시리얼 통신 등의 동작에 따라 통신 상태 변환</h4>
-                    </div>
-                  </div>
-                  <div class="section-heading text-center">
-                    <h3>구현 특징</h3>
-                  </div>
-                  <div class="detail-desc">
-                    <div class="detail-desc-items">
-                      <h4>✓&nbspPhysicaloid API로 아두이노와의 통신 동작 구현</h4>
+                      <h4>✓&nbsp업로드, 시리얼 통신 등의 동작에 따른 통신 상태 변환</h4>
                     </div>
                     <div class="detail-desc-items">
-                      <h4>✓&nbspBroadcastReceiver로 USB 연결 상태 수신</h4>
+                      <h4>✓&nbspUsbManager를 활용한 연결된 디바이스 정보, 연결 상태, 연결 권한 등의 확인</h4>
                     </div>
-                    <div class="detail-desc-items">
-                      <h4>✓&nbspUsbManager로 연결된 디바이스 정보, 연결 상태, 연결 권한 등 확인</h4>
-                    </div>
-                    <div class="detail-desc-items">
-                      <h4>✓&nbsp통신 상태를 유지해야 할 경우에만 통신 상태를 유지</h4>
-                      <h5>: 통신 상태를 유지해야할 필요가 없는 상황에서의 리소스 낭비 방지</h5>
-                      <h5>: 통신 상태가 이루어짐과 동시에 시리얼 통신이 시작되는 경우 다른 동작을 방해</h5>
-                    </div>
-                    <!-- <div class="detail-desc-items">
-                      <h4>✓&nbsp기능 개선 후 USB 연결 및 동작간 발생하던 비정상 종료율 0% 유지</h4>
-                    </div> -->
                   </div>
                 </div>
               </div>
@@ -271,7 +242,7 @@
             <div class="row">
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
-                  <h3>시리얼 모니터 기능</h3><br>
+                  <h3>시리얼 모니터</h3><br>
                   <div id="carouselForModal3" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
@@ -303,37 +274,17 @@
                   </div>
                   <div class="detail-desc">
                     <div class="detail-desc-items">
+                      <h4>✓&nbspPhysicaloid API로 아두이노와의 시리얼 통신 동작</h4>
+                    </div>
+                    <div class="detail-desc-items">
                       <h4>✓&nbsp아두이노와의 시리얼 통신을 통한 데이터 송수신</h4>
                     </div>
                     <div class="detail-desc-items">
-                      <h4>✓&nbsp시리얼 통신 속도(Baud Rate) 설정</h4>
+                      <h4>✓&nbsp시리얼 통신 종류에 따른 속도(Baud Rate) 설정</h4>
                     </div>
                     <div class="detail-desc-items">
-                      <h4>✓&nbsp시리얼 모니터 출력 줄 수 제한 설정</h4>
+                      <h4>✓&nbsp시리얼 모니터 출력 내용 텍스트 파일 생성 및 메일 전송</h4>
                     </div>
-                    <div class="detail-desc-items">
-                      <h4>✓&nbsp시리얼 모니터 출력 내용을 텍스트 파일로 생성 후 메일로 전송</h4>
-                    </div>
-                  </div>
-                  <div class="section-heading text-center">
-                    <h3>구현 특징</h3>
-                  </div>
-                  <div class="detail-desc">
-                    <div class="detail-desc-items">
-                      <h4>✓&nbspPhysicaloid API로 아두이노와의 시리얼 통신 동작 구현</h4>
-                    </div>
-                    <div class="detail-desc-items">
-                      <h4>✓&nbsp시리얼 통신의 종류에 따른 통신 속도 변화</h4>
-                      <h5>: Baud Rate 설정 제공</h5>
-                    </div>
-                    <div class="detail-desc-items">
-                      <h4>✓&nbsp시리얼 모니터의 내용이 갑자기 많아질 경우 Stack Overflow 현상 발생</h4>
-                      <h5>: 시리얼 모니터 출력 줄 수 제한 설정 제공</h5>
-                      <h5>: 모니터 내용 지우개 버튼 제공</h5>
-                    </div>
-                    <!-- <div class="detail-desc-items">
-                      <h4>✓&nbspSerial 함수들을 사용하여 아두이노와의 시리얼 통신이 가능해짐</h4>
-                    </div> -->
                   </div>
                 </div>
               </div>
@@ -481,26 +432,10 @@
                       <h4>✓&nbsp직접 제작한 유튜브 예제 비디오 제공</h4>
                     </div>
                     <div class="detail-desc-items">
-                      <h4>✓&nbsp아두이노 공식 기본 예제 제공</h4>
+                      <h4>✓&nbsp아두이노 공식 기본 예제 프로젝트를 블럭 프로그래밍에 맞게 변환</h4>
                     </div>
                     <div class="detail-desc-items">
-                      <h4>✓&nbsp아두이노 공식 기본 예제 프로젝트 저장</h4>
-                    </div>
-                  </div>
-                  <div class="section-heading text-center">
-                    <h3>구현 특징</h3>
-                  </div>
-                  <div class="detail-desc">
-                    <div class="detail-desc-items">
-                      <h4>✓&nbspYoutubeAndroidPlayer API로 유튜브 예제 비디오 제공</h4>
-                    </div>
-                    <div class="detail-desc-items">
-                      <h4>✓&nbspWebview로 아두이노 공식 기본 예제 가이드 페이지 제공</h4>
-                    </div>
-                    <div class="detail-desc-items">
-                      <h4>✓&nbsp아두이노 공식 기본 예제 프로젝트의 소스 코드를 블럭 프로그래밍에 맞게 변환하여 저장</h4>
-                      <h5>: 저장 후 바로 컴파일 및 아두이노로 업로드 가능</h5>
-                      <h5>: 예제 프로젝트의 소스 코드를 열어 로직 학습 가능</h5>
+                      <h4>✓&nbsp아두이노 공식 기본 예제 설명 및 예제 프로젝트 다운로드 기능</h4>
                     </div>
                   </div>
                 </div>
