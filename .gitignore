@@ -1,0 +1,12 @@
+# Astro
+dist/
+.astro/
+
+# Dependencies
+node_modules/
+
+# Claude
+.claude/worktrees/
+
+# macOS
+.DS_Store
