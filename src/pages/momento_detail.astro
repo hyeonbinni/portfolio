@@ -1,0 +1,171 @@
+---
+import DetailLayout from '../layouts/DetailLayout.astro';
+---
+<DetailLayout title="Momento">
+
+  <section class="site-section" id="section-project-info">
+    <div class="container">
+      <div class="row mb-5 align-items-center">
+        <div class="col-md-6 pr-lg-5 mb-5 mb-lg-0">
+          <div class="device-wrapper">
+            <div class="device" data-device="Pixel" data-orientation="portrait" data-color="black">
+              <div class="screen">
+                <img src="/images/momento_main.gif" class="sketch-main-img">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="section-heading">
+            <h2><strong>Momento</strong></h2>
+          </div>
+          <p><span class="date"><span class="icon-calendar"></span> November 2020 - </span></p>
+          <p class="lead">배너 • 네이티브 • 동영상 광고 송출이 가능한 SDK</p>
+          <p class="mb-5">배너 • 네이티브 • 동영상 광고 기능 설계와 개발
+            <br>매체별 수익 고도화를 위한 품질 관리와 연동 이슈 대응
+            <br>Kotlin • Java 등을 활용한 개발
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="site-section bg-light" id="section-works">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 mb-5">
+          <div class="section-heading text-center"><h2>My <strong>Works</strong></h2></div>
+        </div>
+        <div class="col-md-12">
+          <div class="resume-item mb-4" data-toggle="modal" href="#portfolioModal1">
+            <h3>동영상 광고</h3>
+            <span class="school">#vast #xml_parse #media_player_2</span>
+          </div>
+          <div class="resume-item mb-4" data-toggle="modal" href="#portfolioModal3">
+            <h3>네이티브 광고</h3>
+            <span class="school">#custom_view #bind_view</span>
+          </div>
+          <div class="resume-item mb-4" data-toggle="modal" href="#portfolioModal2">
+            <h3>배너 광고</h3>
+            <span class="school">#web_view #web_view_client</span>
+          </div>
+          <div class="resume-item mb-4" data-toggle="modal" href="#portfolioModal4">
+            <h3>매체별 품질 관리와 연동 이슈 대응</h3>
+            <span class="school">#firebase #crashlytics #big_query</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal 1 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog"><div class="modal-content">
+      <div class="close-modal" data-dismiss="modal"><div class="lr"><div class="rl"></div></div></div>
+      <div class="container"><div class="row"><div class="col-lg-8 mx-auto"><div class="modal-body">
+        <h3>동영상 광고</h3><br>
+        <div id="carouselForModal1" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active"><img class="modal-img" src="/images/screenshots/momento/video/1.jpeg"></div>
+            <div class="carousel-item"><img class="modal-img" src="/images/screenshots/momento/video/2.jpeg"></div>
+            <div class="carousel-item"><img class="modal-img" src="/images/screenshots/momento/video/3.jpeg"></div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselForModal1" role="button" data-slide="prev"><div class="carousel-buttons"><i class="fas fa-chevron-left"></i></div></a>
+          <a class="carousel-control-next" href="#carouselForModal1" role="button" data-slide="next"><div class="carousel-buttons"><i class="fas fa-chevron-right"></i></div></a>
+        </div><br>
+        <div class="section-heading text-center"><h3>주요 기능과 구현 특징</h3><br></div>
+        <div class="detail-desc">
+          <div class="detail-desc-items"><h4>✓&nbspVAST 3.0 표준 XML 파싱과 광고 데이터 관리</h4></div>
+          <div class="detail-desc-items"><h4>✓&nbsp동영상 광고 데이터 서버 요청</h4></div>
+          <div class="detail-desc-items"><h4>✓&nbsp동영상 광고 송출</h4></div>
+          <div class="detail-desc-items"><h4>✓&nbsp매체에서 사용할 동영상 광고의 메소드와 콜백 정의</h4></div>
+          <div class="detail-desc-items"><h4>✓&nbsp동영상 광고 송출 시 VAST 3.0 표준에 맞는 트래킹</h4></div>
+        </div>
+      </div></div></div></div>
+    </div></div>
+  </div>
+
+  <!-- Modal 2 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog"><div class="modal-content">
+      <div class="close-modal" data-dismiss="modal"><div class="lr"><div class="rl"></div></div></div>
+      <div class="container"><div class="row"><div class="col-lg-8 mx-auto"><div class="modal-body">
+        <h3>배너 광고</h3><br>
+        <div id="carouselForModal2" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active"><img class="modal-img" src="/images/screenshots/momento/banner/1.jpeg"></div>
+            <div class="carousel-item"><img class="modal-img" src="/images/screenshots/momento/banner/2.jpeg"></div>
+            <div class="carousel-item"><img class="modal-img" src="/images/screenshots/momento/banner/3.jpeg"></div>
+            <div class="carousel-item"><img class="modal-img" src="/images/screenshots/momento/banner/4.jpeg"></div>
+            <div class="carousel-item"><img class="modal-img" src="/images/screenshots/momento/banner/5.jpeg"></div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselForModal2" role="button" data-slide="prev"><div class="carousel-buttons"><i class="fas fa-chevron-left"></i></div></a>
+          <a class="carousel-control-next" href="#carouselForModal2" role="button" data-slide="next"><div class="carousel-buttons"><i class="fas fa-chevron-right"></i></div></a>
+        </div><br>
+        <div class="section-heading text-center"><h3>주요 기능과 구현 내용</h3><br></div>
+        <div class="detail-desc">
+          <div class="detail-desc-items"><h4>✓&nbsp배너 광고 데이터 서버 요청</h4></div>
+          <div class="detail-desc-items"><h4>✓&nbsp배너 광고 송출</h4></div>
+          <div class="detail-desc-items"><h4>✓&nbsp매체에서 사용할 배너 광고의 메소드와 콜백 정의</h4></div>
+          <div class="detail-desc-items"><h4>✓&nbsp배너 광고 송출 시 상황에 따른 트래킹</h4></div>
+        </div>
+      </div></div></div></div>
+    </div></div>
+  </div>
+
+  <!-- Modal 3 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog"><div class="modal-content">
+      <div class="close-modal" data-dismiss="modal"><div class="lr"><div class="rl"></div></div></div>
+      <div class="container"><div class="row"><div class="col-lg-8 mx-auto"><div class="modal-body">
+        <h3>네이티브 광고</h3><br>
+        <div id="carouselForModal3" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active"><img class="modal-img" src="/images/screenshots/momento/native/1.jpeg"></div>
+            <div class="carousel-item"><img class="modal-img" src="/images/screenshots/momento/native/2.jpeg"></div>
+            <div class="carousel-item"><img class="modal-img" src="/images/screenshots/momento/native/3.jpeg"></div>
+            <div class="carousel-item"><img class="modal-img" src="/images/screenshots/momento/native/4.jpeg"></div>
+            <div class="carousel-item"><img class="modal-img" src="/images/screenshots/momento/native/5.jpeg"></div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselForModal3" role="button" data-slide="prev"><div class="carousel-buttons"><i class="fas fa-chevron-left"></i></div></a>
+          <a class="carousel-control-next" href="#carouselForModal3" role="button" data-slide="next"><div class="carousel-buttons"><i class="fas fa-chevron-right"></i></div></a>
+        </div><br>
+        <div class="section-heading text-center"><h3>주요 기능과 구현 내용</h3><br></div>
+        <div class="detail-desc">
+          <div class="detail-desc-items"><h4>✓&nbsp네이티브 광고 데이터 서버 요청</h4></div>
+          <div class="detail-desc-items"><h4>✓&nbsp네이티브 광고 송출</h4></div>
+          <div class="detail-desc-items"><h4>✓&nbsp매체에서 사용할 네이티브 광고의 메소드와 콜백 정의</h4></div>
+          <div class="detail-desc-items"><h4>✓&nbsp네이티브 광고 송출 시 상황에 따른 트래킹</h4></div>
+        </div>
+      </div></div></div></div>
+    </div></div>
+  </div>
+
+  <!-- Modal 4 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog"><div class="modal-content">
+      <div class="close-modal" data-dismiss="modal"><div class="lr"><div class="rl"></div></div></div>
+      <div class="container"><div class="row"><div class="col-lg-8 mx-auto"><div class="modal-body">
+        <h3>매체별 품질 관리와 연동 이슈 대응</h3><br>
+        <div id="carouselForModal4" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active"><img class="parse-item" src="/images/screenshots/momento/firebase/1.png"></div>
+            <div class="carousel-item"><img class="parse-item" src="/images/screenshots/momento/firebase/2.png"></div>
+            <div class="carousel-item"><img class="parse-item" src="/images/screenshots/momento/firebase/3.png"></div>
+            <div class="carousel-item"><img class="parse-item" src="/images/screenshots/momento/firebase/4.png"></div>
+            <div class="carousel-item"><img class="parse-item" src="/images/screenshots/momento/firebase/5.png"></div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselForModal4" role="button" data-slide="prev"><div class="carousel-buttons"><i class="fas fa-chevron-left"></i></div></a>
+          <a class="carousel-control-next" href="#carouselForModal4" role="button" data-slide="next"><div class="carousel-buttons"><i class="fas fa-chevron-right"></i></div></a>
+        </div><br>
+        <div class="section-heading text-center"><h3>주요 기능과 구현 내용</h3><br></div>
+        <div class="detail-desc">
+          <div class="detail-desc-items"><h4>✓&nbspFirebase Crashlytics를 통한 매체별 크래시 관리와 대응</h4></div>
+          <div class="detail-desc-items"><h4>✓&nbspGoogle Cloud BigQuery를 통한 매체별 광고 수치 분석과 대응</h4></div>
+          <div class="detail-desc-items"><h4>✓&nbsp매체별 광고 연동에 대한 F/U</h4></div>
+        </div>
+      </div></div></div></div>
+    </div></div>
+  </div>
+
+</DetailLayout>
