@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="ko">
   <head>
     <title>HYEONBIN &mdash; Sketchware for Android</title>
     <meta charset="utf-8">
@@ -19,18 +19,7 @@
 
   </head>
   <body>
-    <nav class="navbar">
-      <div class="container">
-        <div class="backbutton-icons">
-          <a href="javascript:history.back()">
-            <i class="fas fa-chevron-left"></i>
-          </a>
-        </div>
-        <div class="project-detail-title">
-          <h3>Project <strong>Details</strong></h3>
-        </div>
-      </div>
-    </nav>
+    <div id="shared-nav"></div>
 
     <section class="site-section" id="section-project-info">
       <div class="container">
@@ -97,18 +86,7 @@
       </div>
     </section>
 
-    <footer class="site-footer">
-      <div class="container">
-
-        <div class="row">
-            <p class="col-12 text-center">
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" class="text-primary">Colorlib</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
-        </div>
-      </div>
-    </footer>
+    <div id="shared-footer"></div>
 
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
@@ -482,6 +460,7 @@
     <script src="js/vendor/jquery.waypoints.min.js"></script>
 
     <script src="js/custom.js"></script>
+    <script src="js/components.js"></script>
 
   </body>
 </html>
