@@ -20,9 +20,10 @@ import DetailLayout from '../layouts/DetailLayout.astro';
             </div>
             <p><span class="date"><span class="icon-calendar"></span> October 2019 - November 2020 </span></p>
             <p class="lead">스마트폰을 사용하지 않은 시간을 리워드로 제공하는 잠금 화면 앱</p>
-            <p class="mb-5">기존 기능의 디벨롭 및 신규 기능의 설계 • 개발과 서비스의 품질 관리
-              <br>DAU 20만 앱의 Google Play Console 업데이트 관리와 이슈 대응
-              <br>Kotlin • Java • RxJava 등을 활용한 개발
+            <p class="mb-5">DAU 20만 앱의 UsageStatsManager 기반 잠금 화면 및 코인 시스템 개발
+              <br>PagerSnapHelper · Lottie 기반 리워드 게임 기능 개발
+              <br>Firebase · BigQuery · Android Profiler 기반 앱 품질 관리
+              <br>서버 기반 동적 WaterFall 광고 미디에이션 구현
             </p>
               <!-- <a href="#section-contact" class="btn btn-primary px-4 py-2 btn-sm smoothscroll">Go To Market</a> -->
             <a href="https://play.google.com/store/apps/details?id=com.timespread.Timetable2">
@@ -43,23 +44,23 @@ import DetailLayout from '../layouts/DetailLayout.astro';
           </div>
           <div class="col-md-12">
             <div class="resume-item mb-4" data-toggle="modal" href="#portfolioModal1">
-              <h3>잠금화면</h3>
-              <span class="school">#service #rx_java #worker #work_manager #broadcast_receiver</span>
+              <h3>UsageStatsManager 기반 잠금 화면 및 코인 시스템 구현</h3>
+              <span class="school">#service #work_manager #broadcast_receiver #usagestatsmanager #room #ad_mediation</span>
             </div>
             <div class="resume-item mb-4" data-toggle="modal" href="#portfolioModal2">
-              <h3>오늘의 상자</h3>
-              <span class="school">#rx_java #pager_snap_helper</span>
+              <h3>PagerSnapHelper · Lottie 기반 리워드 게임 기능 구현</h3>
+              <span class="school">#pager_snap_helper #recycler_view #lottie #ad_mediation</span>
             </div>
             <div class="resume-item mb-4" data-toggle="modal" href="#portfolioModal3">
-              <h3>알림</h3>
-              <span class="school">#rx_java #firebase_messaging_service #notification</span>
+              <h3>Firebase Messaging Service 기반 알림 시스템 구현</h3>
+              <span class="school">#firebase_messaging_service #notification</span>
             </div>
             <div class="resume-item mb-4" data-toggle="modal" href="#portfolioModal4">
-              <h3>애플리케이션 품질 관리</h3>
-              <span class="school">#firebase #crashlytics #android_profiler #google_play_console #eclipse_memory_analyzer #leak_canary #hprof</span>
+              <h3>Firebase · BigQuery · Android Profiler 기반 앱 품질 관리</h3>
+              <span class="school">#firebase #crashlytics #big_query #android_profiler #leak_canary #hprof</span>
             </div>
             <div class="resume-item mb-4" data-toggle="modal" href="#portfolioModal5">
-              <h3>광고 미디에이션</h3>
+              <h3>서버 기반 동적 WaterFall 광고 미디에이션 구현</h3>
               <span class="school">#facebook_audience_network #unity #vungle #admob #adfit</span>
             </div>
           </div>
@@ -79,7 +80,7 @@ import DetailLayout from '../layouts/DetailLayout.astro';
             <div class="row">
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
-                  <h3>잠금화면</h3><br>
+                  <h3>UsageStatsManager 기반 잠금 화면 및 코인 시스템 구현</h3><br>
                   <div id="carouselForModal1" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
@@ -111,19 +112,16 @@ import DetailLayout from '../layouts/DetailLayout.astro';
                   </div>
                   <div class="detail-desc">
                     <div class="detail-desc-items">
-                      <h4>✓&nbsp디바이스 상에 잠금 화면 노출</h4>
+                      <h4>✓&nbsp UsageStatsManager 기반 디바이스 미사용 시간 측정 및 ScreenOn/ScreenOff 이벤트 DB 저장</h4>
                     </div>
                     <div class="detail-desc-items">
-                      <h4>✓&nbsp디바이스 미사용 시간 데이터 저장과 관리</h4>
+                      <h4>✓&nbsp 15분 단위 코인 발행 로직 구현 및 Room · SharedPreference 기반 코인 데이터 저장 관리</h4>
                     </div>
                     <div class="detail-desc-items">
-                      <h4>✓&nbsp디바이스 미사용 시간으로 계산한 코인 발행과 적립</h4>
+                      <h4>✓&nbsp WorkManager 기반 백그라운드 코인 서버 적립 요청 로직 구현</h4>
                     </div>
                     <div class="detail-desc-items">
-                      <h4>✓&nbsp기타 유저 동작 관련 클라이언트 동작 및 서버 요청</h4>
-                    </div>
-                    <div class="detail-desc-items">
-                      <h4>✓&nbsp잠금 화면 하단 미디에이션 배너 노출</h4>
+                      <h4>✓&nbsp 서버 기반 동적 WaterFall 방식 잠금 화면 하단 배너 미디에이션 연동 구현</h4>
                     </div>
                   </div>
                 </div>
@@ -146,7 +144,7 @@ import DetailLayout from '../layouts/DetailLayout.astro';
             <div class="row">
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
-                  <h3>오늘의 상자</h3><br>
+                  <h3>PagerSnapHelper · Lottie 기반 리워드 게임 기능 구현</h3><br>
                   <div id="carouselForModal2" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
@@ -187,16 +185,16 @@ import DetailLayout from '../layouts/DetailLayout.astro';
                   </div>
                   <div class="detail-desc">
                     <div class="detail-desc-items">
-                      <h4>✓&nbsp리워드 데이터 처리 관련 클라이언트 동작 및 서버 요청</h4>
+                      <h4>✓&nbsp 리워드 상자 타입별 리스트 및 당첨 데이터 처리와 서버 요청 구현</h4>
                     </div>
                     <div class="detail-desc-items">
-                      <h4>✓&nbsp당첨자 데이터 처리 관련 클라이언트 동작 및 서버 요청</h4>
+                      <h4>✓&nbsp 실시간 당첨자 리스트 서버 요청 및 클라이언트 동작 구현</h4>
                     </div>
                     <div class="detail-desc-items">
-                      <h4>✓&nbsp상자 타입별 애니메이션 UI 처리를 위한 PagerSnapHelper로의 RecyclerView 스크롤 처리</h4>
+                      <h4>✓&nbsp PagerSnapHelper · RecyclerView 기반 리워드 상자 타입별 스크롤 UI 및 Lottie 애니메이션 적용</h4>
                     </div>
                     <div class="detail-desc-items">
-                      <h4>✓&nbsp리워드 기회 제공을 위한 동영상 광고와 전면 광고 노출</h4>
+                      <h4>✓&nbsp 리워드 제공을 위한 전면 · 동영상 광고 미디에이션 연동 구현</h4>
                     </div>
                   </div>
                 </div>
@@ -219,7 +217,7 @@ import DetailLayout from '../layouts/DetailLayout.astro';
             <div class="row">
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
-                  <h3>알림</h3><br>
+                  <h3>Firebase Messaging Service 기반 알림 시스템 구현</h3><br>
                   <div id="carouselForModal3" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
@@ -260,19 +258,13 @@ import DetailLayout from '../layouts/DetailLayout.astro';
                   </div>
                   <div class="detail-desc">
                     <div class="detail-desc-items">
-                      <h4>✓&nbsp알림 리스트 데이터 처리 관련 서버 요청</h4>
+                      <h4>✓&nbsp Firebase Messaging Service 기반 유저별 FCM 토픽 구독/해제 및 실시간 푸시 구현</h4>
                     </div>
                     <div class="detail-desc-items">
-                      <h4>✓&nbsp알림함 화면 관련 클라이언트 동작</h4>
+                      <h4>✓&nbsp 알림함 리스트 서버 요청 및 노출/삭제 처리 구현</h4>
                     </div>
                     <div class="detail-desc-items">
-                      <h4>✓&nbsp실시간 알림 노출 관련 클라이언트 동작</h4>
-                    </div>
-                    <div class="detail-desc-items">
-                      <h4>✓&nbsp유저 알림 설정 상태 값에 따른 FCM 토픽 구독과 관리</h4>
-                    </div>
-                    <div class="detail-desc-items">
-                      <h4>✓&nbspFirebase Messaging Service를 통한 푸시 메시지 동작</h4>
+                      <h4>✓&nbsp 알림 클릭 동작 처리 및 유저 알림 설정 상태에 따른 클라이언트 동작 구현</h4>
                     </div>
                   </div>
                 </div>
@@ -295,7 +287,7 @@ import DetailLayout from '../layouts/DetailLayout.astro';
             <div class="row">
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
-                  <h3>애플리케이션 품질 관리</h3><br>
+                  <h3>Firebase · BigQuery · Android Profiler 기반 앱 품질 관리</h3><br>
                   <div id="carouselForModal4" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
@@ -345,19 +337,16 @@ import DetailLayout from '../layouts/DetailLayout.astro';
                   </div>
                   <div class="detail-desc">
                     <div class="detail-desc-items">
-                      <h4>✓&nbspAndroid Profiler • LeakCanary • Eclipse Memory Analyzer를 활용한 Hprof 파일 분석</h4>
+                      <h4>✓&nbsp Firebase Crashlytics 버전별 크래시 모니터링 및 대응</h4>
                     </div>
                     <div class="detail-desc-items">
-                      <h4>✓&nbspFirebase Crashlytics를 통한 크래시 관리와 대응</h4>
+                      <h4>✓&nbsp Google Cloud BigQuery 기반 마케팅/문제해결/앱 활동/광고 수치 이벤트 트래킹</h4>
                     </div>
                     <div class="detail-desc-items">
-                      <h4>✓&nbspFirebase 트래킹 이벤트 로직 추가와 트래킹 이벤트 관리</h4>
+                      <h4>✓&nbsp Android Profiler · LeakCanary · Eclipse MAT 기반 Hprof 분석 및 메모리 이슈 대응</h4>
                     </div>
                     <div class="detail-desc-items">
-                      <h4>✓&nbspGoogle Cloud BigQuery를 통한 데이터 중심의 개발</h4>
-                    </div>
-                    <div class="detail-desc-items">
-                      <h4>✓&nbsp신규 기능 추가 관련 테스트 • 기술적인 이슈 대응을 위한 베타 트랙 배포와 관리</h4>
+                      <h4>✓&nbsp Google Play Console 배포 트랙 단계별 운영을 통한 신규 기능 검증 및 이슈 관리</h4>
                     </div>
                   </div>
                 </div>
@@ -380,7 +369,7 @@ import DetailLayout from '../layouts/DetailLayout.astro';
             <div class="row">
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
-                  <h3>광고 미디에이션</h3><br>
+                  <h3>서버 기반 동적 WaterFall 광고 미디에이션 구현</h3><br>
                   <div id="carouselForModal5" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
@@ -427,13 +416,13 @@ import DetailLayout from '../layouts/DetailLayout.astro';
                   </div>
                   <div class="detail-desc">
                     <div class="detail-desc-items">
-                      <h4>✓&nbsp광고 유닛별 광고 순서와 시간 설정이 가능한 미디에이션</h4>
+                      <h4>✓&nbsp Facebook Audience Network · Unity · Vungle · AdMob · AdFit 기반 배너 · 네이티브 · 전면 · 동영상 광고 SDK 연동</h4>
                     </div>
                     <div class="detail-desc-items">
-                      <h4>✓&nbspAdMob • MoPub • AdFit 등의 배너 광고 및 네이티브 광고 연동</h4>
+                      <h4>✓&nbsp 광고 유닛별 광고 순서 및 타임아웃을 서버로부터 동적으로 수신하는 WaterFall 방식 미디에이션 로직 구현</h4>
                     </div>
                     <div class="detail-desc-items">
-                      <h4>✓&nbspAdMob • Facebook Audience Network • Vungle 등의 비디오 광고 연동</h4>
+                      <h4>✓&nbsp 서비스 수익 고도화를 위한 다양한 광고 지면 운영 및 최적화</h4>
                     </div>
                   </div>
                 </div>
