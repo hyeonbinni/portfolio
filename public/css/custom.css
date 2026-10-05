@@ -295,10 +295,15 @@
 }
 
 .portfolio-modal .carousel-item {
+  height: 360px;
+}
+
+.portfolio-modal .carousel-item.active,
+.portfolio-modal .carousel-item-next,
+.portfolio-modal .carousel-item-prev {
   display: flex !important;
   align-items: center;
   justify-content: center;
-  height: 360px;
 }
 
 .list-inline {
